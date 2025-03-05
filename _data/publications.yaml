@@ -1,14 +1,15 @@
 papers:
-  - title: "[C2] Learning to Contextualize Web Pages for Enhanced Decision Making by LLM Agents"
-    authors: "<b><u>Dongjun Lee</u><sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></b>, <a href='https://jylee425.github.io/'>Juyong Lee<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></a>, <a href='https://kykim0.github.io'>Kyuyoung Kim</a>, <a href='https://jihoontack.github.io'>Jihoon Tack</a>, <a href='https://alinlab.kaist.ac.kr/shin.html'>Jinwoo Shin</a>, <a href='https://www.stats.ox.ac.uk/~teh/'>Yee Whye Teh</a>, <a href='https://sites.google.com/view/kiminlee/'>Kimin Lee</a>"
-    venue: "International Conference on Learning Representations (ICLR), 2025"
-    code: "https://github.com/dgjun32/lcow_iclr2025"
-    website: "https://lcowiclr2025.github.io"
+  - title: "[P1] Understanding Impact of Human Feedback via Influence Functions"
+    authors: "<b><u>Taywon Min</u><sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></b>, <a>Haeone Lee</a>, <a href=https://www.yongchanstat.com/>Yongchan Kwon</a>, <a href='https://sites.google.com/view/kiminlee/'>Kimin Lee</a>"
+    venue: "Preprint"
+    arxiv: "https://arxiv.org/abs/2501.05790"
+    code: "https://github.com/mintaywonmin/IF_RLHF"
     selected: y
 
-  - title: "[C1] Read-only prompt optimization for Vision-Language Few-shot Learning"
-    authors: "<b><u>Dongjun Lee</u><sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></b>, <a>Seokwon Song<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></a>, <a>Jihee Suh</a>, <a>Junmyeong Choi</a>, <a>Sanghyeok Lee</a>, <a>Hyunwoo J.Kim</a>"
-    venue: "International Conference on Computer Vision (ICCV), 2023"
-    arxiv: "https://arxiv.org/abs/2308.14960"
-    code: "https://github.com/dgjun32/RPO"
+  - title: "[W1] Benchmarking mobile device control agents across diverse configuration"
+    authors: "<a href='https://jylee425.github.io/'>Juyong Lee</a>, <b><u>Taywon Min</u></b>, <a>Minyong Ahn</a>, <a>Dongyoon Hahm</a>, <a>Haeone Lee</a>, <a href='https://sites.google.com/view/kiminlee/'>Kimin Lee</a>"
+    venue: "GenAI4DM Workshop @ International Conference on Learning Representations (ICLR), 2024 (<span style='color: red;'>Spotlight</span>)"
+    arxiv: "https://arxiv.org/abs/2404.16660"
+    project_page: "https://b-moca.github.io/"
+    code: "https://github.com/jylee425/b-moca"
     selected: y
