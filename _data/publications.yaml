@@ -1,6 +1,6 @@
 papers:
   - title: "[P1] Understanding Impact of Human Feedback via Influence Functions"
-    authors: "<b><u>Taywon Min</u><sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></b>, <a>Haeone Lee</a>, <a href=https://www.yongchanstat.com/>Yongchan Kwon</a>, <a href='https://sites.google.com/view/kiminlee/'>Kimin Lee</a>"
+    authors: "<b><u>Taywon Min</u></u></b>, <a>Haeone Lee</a>, <a href=https://www.yongchanstat.com/>Yongchan Kwon</a>, <a href='https://sites.google.com/view/kiminlee/'>Kimin Lee</a>"
     venue: "Preprint"
     arxiv: "https://arxiv.org/abs/2501.05790"
     code: "https://github.com/mintaywonmin/IF_RLHF"
@@ -10,6 +10,6 @@ papers:
     authors: "<a href='https://jylee425.github.io/'>Juyong Lee</a>, <b><u>Taywon Min</u></b>, <a>Minyong Ahn</a>, <a>Dongyoon Hahm</a>, <a>Haeone Lee</a>, <a href='https://sites.google.com/view/kiminlee/'>Kimin Lee</a>"
     venue: "GenAI4DM Workshop @ International Conference on Learning Representations (ICLR), 2024 (<span style='color: red;'>Spotlight</span>)"
     arxiv: "https://arxiv.org/abs/2404.16660"
-    project_page: "https://b-moca.github.io/"
+    website: "https://b-moca.github.io/"
     code: "https://github.com/jylee425/b-moca"
     selected: y
