@@ -1,0 +1,210 @@
+---
+layout: default
+---
+
+<!-- ========== About ========== -->
+<div class="docs-section" id="about">
+  <h4>About</h4>
+  <p>
+    I am a graduate student at Korea Advanced Institute of Science and Technology
+    (<a href="https://www.kaist.ac.kr/en/">KAIST</a>), advised by Prof.
+    <a href="https://sites.google.com/view/kiminlee/">Kimin Lee</a>. I received
+    a B.S. degree in Statistics / interdisciplinary major in AI at Seoul National University.
+    I am interested in alignment and interpretability of AI models.
+    Recently, I am working on (1) measuring impact of data on model behavior via influence functions, and (2) interpreting safety degradation of fine-tuned LLM agents.
+  </p>
+</div>
+
+<!-- ========== PUBLICATIONS ========== -->
+<div class="docs-section" id="publications">
+  <h4>Publications</h4>
+
+  <ul class="tab-nav">
+    <li>
+      <div class="button active" data-ref="#papers-selected">Selected</div>
+    </li>
+    <li><div class="button" data-ref="#papers-all">All</div></li>
+  </ul>
+
+  <div class="tab-content">
+    <div class="tab-pane active" id="papers-selected">
+      {% assign selected_papers = site.data.publications.papers | where:
+      "selected", "y" %} {% for paper in selected_papers %}
+      <div class="paper">
+        <p class="title"><b>{{ paper.title }}</b></p>
+        <p>{{ paper.authors }}</p>
+        <p><i>{{ paper.venue }}</i></p>
+        {% if paper.venue2 %}
+        <p><i>{{ paper.venue2 }}</i></p>
+        {% endif %}
+        <div class="paper-buttons">
+          {% if paper.paper_pdf %}
+          <a class="button" href="{{ paper.paper_pdf }}" target="_blank"
+            >Paper</a
+          >
+          {% endif %} {% if paper.arxiv %}
+          <a class="button" href="{{ paper.arxiv }}" target="_blank">Arxiv</a>
+          {% endif %} {% if paper.slides %}
+          <a class="button" href="{{ paper.slides }}" target="_blank">Slides</a>
+          {% endif %} {% if paper.website %}
+          <a class="button" href="{{ paper.website }}" target="_blank"
+            >Website</a
+          >
+          {% endif %} {% if paper.poster %}
+          <a class="button" href="{{ paper.poster }}" target="_blank">Poster</a>
+          {% endif %} {% if paper.video %}
+          <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+          {% endif %} {% if paper.code %}
+          <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+          {% endif %} {% if paper.data %}
+          <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <div class="tab-pane" id="papers-all">
+      {% for paper in site.data.publications.papers %}
+      <div class="paper">
+        <p class="title"><b>{{ paper.title }}</b></p>
+        <p>{{ paper.authors }}</p>
+        <p><i>{{ paper.venue }}</i></p>
+        {% if paper.venue2 %}
+        <p><i>{{ paper.venue2 }}</i></p>
+        {% endif %}
+        <div class="paper-buttons">
+          {% if paper.paper_pdf %}
+          <a
+            class="button"
+            href="{{ paper.paper_pdf | prepend: site.baseurl }}"
+            target="_blank"
+            >Paper</a
+          >
+          {% endif %} {% if paper.arxiv %}
+          <a
+            class="button"
+            href="{{ paper.arxiv | prepend: site.baseurl }}"
+            target="_blank"
+            >Arxiv</a
+          >
+          {% endif %} {% if paper.slides %}
+          <a
+            class="button"
+            href="{{ paper.slides | prepend: site.baseurl }}"
+            target="_blank"
+            >Slides</a
+          >
+          {% endif %} {% if paper.website %}
+          <a
+            class="button"
+            href="{{ paper.website | prepend: site.baseurl }}"
+            target="_blank"
+            >Website</a
+          >
+          {% endif %} {% if paper.poster %}
+          <a
+            class="button"
+            href="{{ paper.poster | prepend: site.baseurl }}"
+            target="_blank"
+            >Poster</a
+          >
+          {% endif %} {% if paper.video %}
+          <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+          {% endif %} {% if paper.code %}
+          <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+          {% endif %} {% if paper.data %}
+          <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<!-- ========== Education ========== -->
+<div class="docs-section" id="education">
+  <h4>Education</h4>
+  <div class="paper">
+    <p class="title">
+      <b>Korea Advanced Institute of Science and Technology (KAIST)<b
+          style="float: right"
+          >Mar. 2025 - Present</b
+         ></b
+      >
+    </p>
+    <p>Graduate Student in Artificial Intelligence</p>
+  </div>
+  <div class="paper">
+    <p class="title">
+      <b
+        >Seoul National University<b
+          style="float: right"
+          >Mar. 2018 - Feb. 2025</b
+        ></b
+      >
+    </p>
+    <p>B.S. in Statistics / Interdisciplinary Major in AI</p>
+  </div>
+</div>
+
+<!-- ========== Experience ==========
+<div class="docs-section" id="experience">
+  <h4>Experience</h4>
+  <div class="paper">
+    <p class="title">
+      <b
+        >Research Intern<b style="float: right"
+          >Sep. 2024 - Mar. 2025</b
+        ></b
+      >
+    </p>
+    <a>Microsoft Research Asia</a>
+  </div>
+</div> -->
+
+<!-- ========== Academic Services ========== -->
+<div class="docs-section" id="services">
+  <h4>Academic Services</h4>
+  <div class="paper">
+    <p class="title"><b>Conference Reviewer</b>, ICLR 2025</p>
+  </div>
+</div>
+
+<!-- ========== Honors & Awards ========== -->
+<div class="docs-section" id="honors">
+  <h4>Honors & Awards</h4>
+  <div class="paper">
+    <p class="title">
+      <b>Presediential Science Scholarship</b>, Korea Student Aid Foundation<b
+        style="float: right"
+        >2018 - 2024</b
+      >
+    </p>
+  </div>
+  <div class="paper">
+    <p class="title">
+      <b>Dean's List</b>, Seoul National University<b
+        style="float: right"
+        >2019 Spring, 2022 Spring</b
+      >
+    </p>
+  </div>
+  <div class="paper">
+    <p class="title">
+      <b>Statistic Korea's Annual Call for Research Papers and Awards</b>, Statistics Korea<b
+        style="float: right"
+        >2022</b
+      >
+    </p>
+  </div>
+  <div class="paper">
+    <p class="title">
+      <b>Talent Award Korea</b>,  Korea Student Aid Foundation<b
+        style="float: right"
+        >2017</b
+      >
+    </p>
+  </div>
+</div>
