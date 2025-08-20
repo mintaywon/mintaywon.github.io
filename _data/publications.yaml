@@ -1,6 +1,7 @@
 papers:
   - title: "[P2] Mitigating Unintentional Misalignment of LLM Agents via Prefix Injection Guard"
     authors: "<a href='https://hahmdy.github.io/'>Dongyoon Hahm<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></a>, <b><u>Taywon Min<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></u></b>, <a>Woogyeol Jin<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></a>, <a href='https://sites.google.com/view/kiminlee/'>Kimin Lee</a>"
+    arxiv: "https://arxiv.org/abs/2508.14031"
     venue: "under review"
     selected: y
   
