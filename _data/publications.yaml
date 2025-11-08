@@ -1,13 +1,13 @@
-papers:
-  - title: "[P2] Mitigating Unintentional Misalignment of LLM Agents via Prefix Injection Guard"
-    authors: "<a href='https://hahmdy.github.io/'>Dongyoon Hahm<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></a>, <b><u>Taywon Min<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></u></b>, <a>Woogyeol Jin<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></a>, <a href='https://sites.google.com/view/kiminlee/'>Kimin Lee</a>"
-    arxiv: "https://arxiv.org/abs/2508.14031"
-    venue: "under review"
-    selected: y
-  
+papers:  
   - title: "[P1] Quality over Quantity: Demonstration Curation via Influence Functions for Data-Centric Robot Learning"
     authors: "<a>Haeone Lee</a>, <b><u>Taywon Min</u></b>, <a href='https://junsu-kim97.github.io/''>Junsu Kim</a>, <a href='https://fangchenliu.github.io/'>Fangchen Liu</a>, <a href='https://www.lerrelpinto.com/'>Lerrel Pinto</a>, <a href='https://sites.google.com/view/kiminlee/'>Kimin Lee</a>"
     venue: "under review"
+    selected: y
+
+  - title: "[C3] Mitigating Unintentional Misalignment of LLM Agents via Prefix Injection Guard"
+    authors: "<a href='https://hahmdy.github.io/'>Dongyoon Hahm<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></a>, <b><u>Taywon Min<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></u></b>, <a>Woogyeol Jin<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></a>, <a href='https://sites.google.com/view/kiminlee/'>Kimin Lee</a>"
+    arxiv: "https://arxiv.org/abs/2508.14031"
+    venue: "AAAI 2026"
     selected: y
 
   - title: "[C2] Understanding Impact of Human Feedback via Influence Functions"
