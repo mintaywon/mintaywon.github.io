@@ -1,24 +1,59 @@
-papers:  
-  - title: "[P1] Quality over Quantity: Demonstration Curation via Influence Functions for Data-Centric Robot Learning"
-    authors: "<a>Haeone Lee</a>, <b><u>Taywon Min</u></b>, <a href='https://junsu-kim97.github.io/''>Junsu Kim</a>, <a href='https://fangchenliu.github.io/'>Fangchen Liu</a>, <a href='https://www.lerrelpinto.com/'>Lerrel Pinto</a>, <a href='https://sites.google.com/view/kiminlee/'>Kimin Lee</a>"
-    venue: "under review"
+papers:
+  - title: "[P1] Building Comparative Motivation Profiles with Instrumental Interventions"
+    authors: "<a>David Vella Zarb</a>, <a>Rustem Turtayev</a>, <b><u>Taywon Min</u></b>, <a>Jinghua Ou</a>, <a>Shi Feng</a>"
+    arxiv: "https://arxiv.org/abs/2606.08243"
+    venue: "arXiv preprint, 2026"
     selected: y
 
-  - title: "[C3] Mitigating Unintentional Misalignment of LLM Agents via Prefix Injection Guard"
-    authors: "<a href='https://hahmdy.github.io/'>Dongyoon Hahm<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></a>, <b><u>Taywon Min<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></u></b>, <a>Woogyeol Jin<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></a>, <a href='https://sites.google.com/view/kiminlee/'>Kimin Lee</a>"
-    arxiv: "https://arxiv.org/abs/2508.14031"
-    venue: "AAAI 2026"
+  - title: "[C7] Capability Provenance in Language Models: A Case Study in Social Reasoning"
+    authors: "<a>Glenn Matlin</a>, <a>Chandreyi Chakraborty</a>, <a>Saehee Eom</a>, <a>Mika Okamoto</a>, <a>Rayan Castilla</a>, <a>Louis Jaburi</a>, <a>Alvin Deng</a>, <b><u>Taywon Min</u></b>, <a>Lucia Quirke</a>, <a>Stella Biderman</a>, <a>Mark Riedl</a>"
+    arxiv: "https://arxiv.org/abs/2606.19625"
+    code: "https://github.com/HCAI-Lab-GT/capabilibara"
+    venue: "COLM 2026"
+    selected: n
+
+  - title: "[C6] Entropy-Aware On-Policy Distillation of Language Models"
+    authors: "<a>Woogyeol Jin</a>, <b><u>Taywon Min</u></b>, <a>Yongjin Yang</a>, <a>Dennis Wei</a>, <a>Yi Zhou</a>, <a>Swanand Ravindra Kadhe</a>, <a>Nathalie Baracaldo</a>, <a href='https://sites.google.com/view/kiminlee/'>Kimin Lee</a>"
+    arxiv: "https://arxiv.org/abs/2603.07079"
+    venue: "ICML 2026"
     selected: y
+
+  - title: "[C5] Quality over Quantity: Demonstration Curation via Influence Functions for Data-Centric Robot Learning"
+    authors: "<a>Haeone Lee</a>, <b><u>Taywon Min</u></b>, <a href='https://junsu-kim97.github.io/'>Junsu Kim</a>, <a>Sinjae Kang</a>, <a href='https://fangchenliu.github.io/'>Fangchen Liu</a>, <a href='https://www.lerrelpinto.com/'>Lerrel Pinto</a>, <a href='https://sites.google.com/view/kiminlee/'>Kimin Lee</a>"
+    arxiv: "https://arxiv.org/abs/2603.09056"
+    venue: "ICRA 2026"
+    selected: y
+
+  - title: "[C4] State Your Intention to Steer Your Attention: An AI Assistant for Intentional Digital Living"
+    authors: "<a>Juheon Choi</a>, <a href='https://jylee425.github.io/'>Juyong Lee</a>, <a>Jian Kim</a>, <a>Chanyoung Kim</a>, <b><u>Taywon Min</u></b>, <a>W. Bradley Knox</a>, <a>Min Kyung Lee</a>, <a href='https://sites.google.com/view/kiminlee/'>Kimin Lee</a>"
+    arxiv: "https://arxiv.org/abs/2510.14513"
+    website: "https://intentassistant.github.io"
+    venue: "CHI 2026"
+    selected: n
+
+  - title: "[C3] Unintended Misalignment from Agentic Fine-Tuning: Risks and Mitigation"
+    authors: "<a href='https://hahmdy.github.io/'>Dongyoon Hahm<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></a>, <b><u>Taywon Min<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></u></b>, <a>Woogyeol Jin<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></a>, <a href='https://sites.google.com/view/kiminlee/'>Kimin Lee</a>"
+    arxiv: "https://arxiv.org/abs/2508.14031"
+    code: "https://github.com/HahmDY/agentic-ft-safety"
+    venue: "AAAI 2026 (AI Alignment Track)"
+    selected: y
+
+  - title: "[W1] Transmitting Misalignment with Subliminal Learning via Paraphrasing"
+    authors: "<a>Matthew Bozoukov</a>, <b><u>Taywon Min</u></b>, <a>Callum McDougall</a>, <a>J Rosser</a>"
+    website: "https://www.lesswrong.com/posts/qwAiKvomuAm5ekC4D/transmitting-misalignment-with-subliminal-learning-via"
+    code: "https://github.com/Matthew-Bozoukov/subliminal-learning-paraphrasing"
+    venue: "LessWrong, Dec. 2025 (ARENA 6.0 hackathon project)"
+    selected: n
 
   - title: "[C2] Understanding Impact of Human Feedback via Influence Functions"
-    authors: "<b><u>Taywon Min</u></u></b>, <a>Haeone Lee</a>, <a>Yongchan Kwon</a>, <a href='https://sites.google.com/view/kiminlee/'>Kimin Lee</a>"
+    authors: "<b><u>Taywon Min</u></b>, <a>Haeone Lee</a>, <a>Yongchan Kwon</a>, <a href='https://sites.google.com/view/kiminlee/'>Kimin Lee</a>"
     venue: "ACL 2025"
     arxiv: "https://arxiv.org/abs/2501.05790"
     code: "https://github.com/mintaywon/IF_RLHF"
     selected: y
 
-  - title: "[C1] Benchmarking mobile device control agents across diverse configuration"
-    authors: "<a href='https://jylee425.github.io/'>Juyong Lee</a>, <b><u>Taywon Min</u></b>, <a>Minyong Ahn</a>, <a href='https://hahmdy.github.io/'>Dongyoon Hahm</a>, <a>Haeone Lee</a>, <a href='https://sites.google.com/view/kiminlee/'>Kimin Lee</a>"
+  - title: "[C1] Benchmarking Mobile Device Control Agents across Diverse Configurations"
+    authors: "<a href='https://jylee425.github.io/'>Juyong Lee</a>, <b><u>Taywon Min</u></b>, <a>Minyong An</a>, <a href='https://hahmdy.github.io/'>Dongyoon Hahm</a>, <a>Haeone Lee</a>, <a>Chanyoung Kim</a>, <a href='https://sites.google.com/view/kiminlee/'>Kimin Lee</a>"
     venue: "CoLLAs 2025 & GenAI4DM Workshop @ ICLR 2024 (<span style='color: red;'>Spotlight</span>)"
     arxiv: "https://arxiv.org/abs/2404.16660"
     website: "https://b-moca.github.io/"
