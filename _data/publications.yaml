@@ -1,8 +1,8 @@
 papers:
-  - title: "[P1] Building Comparative Motivation Profiles with Instrumental Interventions"
-    authors: "<a>David Vella Zarb</a>, <a>Rustem Turtayev</a>, <b><u>Taywon Min</u></b>, <a>Jinghua Ou</a>, <a>Shi Feng</a>"
+  - title: "[C8] Building Comparative Motivation Profiles with Instrumental Interventions"
+    authors: "<a>David Vella Zarb<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></a>, <a>Rustem Turtayev<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></a>, <b><u>Taywon Min<sup style='position: relative; top: 7px; font-size: 1.9em;'>*</sup></u></b>, <a>Jinghua Ou</a>, <a>Shi Feng</a>"
     arxiv: "https://arxiv.org/abs/2606.08243"
-    venue: "arXiv preprint, 2026"
+    venue: "NeurIPS 2026"
     selected: y
 
   - title: "[C7] Capability Provenance in Language Models: A Case Study in Social Reasoning"
@@ -37,13 +37,6 @@ papers:
     code: "https://github.com/HahmDY/agentic-ft-safety"
     venue: "AAAI 2026 (AI Alignment Track)"
     selected: y
-
-  - title: "[W1] Transmitting Misalignment with Subliminal Learning via Paraphrasing"
-    authors: "<a>Matthew Bozoukov</a>, <b><u>Taywon Min</u></b>, <a>Callum McDougall</a>, <a>J Rosser</a>"
-    website: "https://www.lesswrong.com/posts/qwAiKvomuAm5ekC4D/transmitting-misalignment-with-subliminal-learning-via"
-    code: "https://github.com/Matthew-Bozoukov/subliminal-learning-paraphrasing"
-    venue: "LessWrong, Dec. 2025 (ARENA 6.0 hackathon project)"
-    selected: n
 
   - title: "[C2] Understanding Impact of Human Feedback via Influence Functions"
     authors: "<b><u>Taywon Min</u></b>, <a>Haeone Lee</a>, <a>Yongchan Kwon</a>, <a href='https://sites.google.com/view/kiminlee/'>Kimin Lee</a>"
